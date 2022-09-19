@@ -11,9 +11,9 @@ void main(void)
 	puts("введите число B");
 	scanf("%d", &lol);
 	puts("введено число B");
-	printf("A+B=%d\n", lol + num);
-	printf("A-B=%d\n", lol - num);
-	printf("A*B=%d\n", lol * num);
-	printf("частное В/A=%d\n", lol / num);
+	printf("A+B=%+d\n", lol + num);
+	printf("A-B=%+d\n", num - lol);
+	printf("A*B=%+d\n", lol * num);
+	printf("частное В/A=%+d\n", lol / num);
 	printf("остаток от В/А=%d\n", lol % num);
 }
